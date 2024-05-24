@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Professional-Website/static/css/main.f6e0e5b5.css",
+    "main.js": "/Professional-Website/static/js/main.983bd883.js",
+    "static/media/Snow.png": "/Professional-Website/static/media/Snow.17240022e94789744820.png",
+    "static/media/Cs120b.png": "/Professional-Website/static/media/Cs120b.87ee4c7fe74811fc9e18.png",
+    "static/media/mock5.png": "/Professional-Website/static/media/mock5.c9b5f54e8517e13fc897.png",
+    "static/media/Hike.jpg": "/Professional-Website/static/media/Hike.aca509b873ce488253fc.jpg",
+    "static/media/Shop.png": "/Professional-Website/static/media/Shop.19e4bdef11d79bfba81a.png",
+    "static/media/self.png": "/Professional-Website/static/media/self.5cda0292f3af546cff42.png",
+    "static/media/mock2.png": "/Professional-Website/static/media/mock2.e8ed2c07928dfdc15a79.png",
+    "static/media/template2.png": "/Professional-Website/static/media/template2.3442e71ad3580279fd81.png",
+    "static/media/mock1.png": "/Professional-Website/static/media/mock1.e11f6103909e8c52d703.png",
+    "static/media/mock3.png": "/Professional-Website/static/media/mock3.8624cffbb7ae4e742c4c.png",
+    "static/media/mock4.png": "/Professional-Website/static/media/mock4.2b2ba794bc5cd75eb2c1.png",
+    "static/media/UCR.png": "/Professional-Website/static/media/UCR.501cb06c0215717188e6.png",
+    "static/media/Task.png": "/Professional-Website/static/media/Task.f4b0ebaa0b1a1c8719da.png",
+    "index.html": "/Professional-Website/index.html",
+    "main.f6e0e5b5.css.map": "/Professional-Website/static/css/main.f6e0e5b5.css.map",
+    "main.983bd883.js.map": "/Professional-Website/static/js/main.983bd883.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6e0e5b5.css",
+    "static/js/main.983bd883.js"
+  ]
+}
