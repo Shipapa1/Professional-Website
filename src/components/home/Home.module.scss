@@ -1,0 +1,104 @@
+// Home.module.scss
+@import "../../variables.modules";
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  @media only screen and (min-width: 940px) {
+    font-size: 3rem;
+    text-align: left;
+  }
+}
+
+h2 {
+  font-size: 1.25rem;
+  text-align: center;
+  @media only screen and (min-width: 940px) {
+    font-size: 2rem;
+    text-align: left;
+  }
+}
+
+.hand {
+  animation-name: wave;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+a {
+  color: $dark;
+  transition: color 200ms ease;
+}
+
+a:hover {
+  color: $lightgray;
+  transition: color 200ms ease;
+}
+
+@keyframes wave {
+  0% { transform: rotate( 0.0deg) }
+  10% { transform: rotate(14.0deg) }
+  20% { transform: rotate(-8.0deg) }
+  30% { transform: rotate(14.0deg) }
+  40% { transform: rotate(-4.0deg) }
+  50% { transform: rotate(10.0deg) }
+  60% { transform: rotate( 0.0deg) }
+  100% { transform: rotate( 0.0deg) }
+}
+
+.lightBlueBackground {
+  background-image: url('../../img/template2.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.darkBackground {
+  background-color: #37474f;
+}
+
+@keyframes laptopOpening {
+  0% { transform: rotateX(90deg); }
+  50% { transform: rotateX(0deg); }
+  100% { transform: rotateX(10deg); }
+}
+
+.laptop {
+  animation-name: laptopOpening;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+  display: inline-block;
+}
+
+.avatar {
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 1200px) {
+  .avatar {
+    left: 0; // Adjust as needed for medium screens
+  }
+}
+
+@media (max-width: 768px) {
+  .avatar {
+    width: 25vh;
+    height: 25vh;
+    left: 30%; // Move image slightly to the right on small tablets
+  }
+}
+
+@media (max-width: 480px) {
+  .avatar {
+    width: 30vh;
+    height: 30vh;
+    left: 10%; // Center or move image right on very small screens
+  }
+
+  .box {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+}

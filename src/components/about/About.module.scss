@@ -1,0 +1,78 @@
+@import "../../variables.modules";
+
+.pink {
+  color: $pink;
+}
+
+.green {
+  color: $green;
+}
+
+.skills {
+  columns: 1;
+  @media only screen and (min-width: 940px) {
+    columns: 2;
+  }
+  li {
+    margin: 0;
+    line-height: 1.75;
+  }
+}
+
+.education-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Changed to flex-start to align items to the left */
+  padding: 20px;
+  background: gray;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  margin: 50px;
+}
+
+.school-logo img {
+  width: 10px; /* Made the image smaller */
+  height: auto;
+  margin-right: 20px; /* Ensure there's spacing between the image and text */
+}
+
+.education-details {
+  max-width: 500px; /* Adjusted max-width for better text alignment */
+}
+
+.education-details h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.education-details ul {
+  list-style-type: none; /* Ensures there are no bullet points from the browser defaults */
+  padding: 0;
+}
+
+.education-details ul li {
+  background: #eef;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  line-height: 1.5;
+}
+
+.education-details ul li strong {
+  color: #333; /* Bold and darker color for key terms */
+}
+.header-container {
+  display: flex;
+  align-items: center;  /* Aligns items vertically in the center */
+  justify-content: space-between; /* Spreads the items to occupy the entire horizontal space */
+}
+
+.school-logo {
+  margin-left: 20px; /* Optional: Adds some space between the header and the logo */
+}
+
+/* Ensures the text and the logo are on the same line */
+h1 {
+  margin-right: auto; /* Pushes everything else to the right */
+}
