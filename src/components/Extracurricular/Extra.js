@@ -42,33 +42,13 @@ export default function Extracurricular({innerRef}) {
     }
 
     function skillsText() {
-      //  return <>
-           {/* <h1> Technical Skills</h1>
-            <p><span style={{color: info.baseColor}}>Languages <span
-                className={Style.green}></span> </span> </p>
-           
-            <ul className={Style.skills}>
-                {info.skills.proficientWith.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
-            </ul>
-            <p style={{color: info.baseColor}}> Exposed To</p>
-            <ul className={Style.skills}>
-                {info.skills.exposedTo.map((skill, index) => <li key={index}>{skill}</li>)}
-            </ul><Terminal text={skillsText()}/>
-        </>; */}
+    
+           {}
     }
 
     function miscText() {
-     //   return <>
-            {/* <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd
-                hobbies/interests</p>
-            <p><span style={{color: info.baseColor}}>hobbies/interests <span
-                className={Style.green}>(main)</span> $</span> ls</p>
-            <ul>
-                {info.hobbies.map((hobby, index) => (
-                    <li key={index}><Box component={'span'} mr={'1rem'}>{hobby.emoji}</Box>{hobby.label}</li>
-                ))}
-            </ul>      <Terminal text={miscText()}/>
-        </>; */}
+    
+            {}
     }
 
     return (
