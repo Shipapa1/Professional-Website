@@ -59,30 +59,25 @@ export default function Navbar({ darkMode, handleClick, active, setActive }) {
     };
 
     const triggerFireworks = () => {
-        // Initialize the fireworks and store the instance in a local variable
         const fireworksInstance = fireworks({
             zIndex: 20,
-            colors: ["#ffffff", "#ff0000", "#00ff00", "#0000ff"], // Customize colors here
+            colors: ["#ffffff", "#ff0000", "#00ff00", "#0000ff"],
             options: {
                 speed: 3
             }
         });
     
-        // Set a timeout to stop the fireworks after a specified time (e.g., 3000 milliseconds)
-        setTimeout(() => {
-            // Ensure fireworksInstance is accessible here and call the destroy method to stop the fireworks
-            if (fireworksInstance) {
-                fireworksInstance.destroy();
-            }
-        }, 3000);
     };
     
-
     return (
         <Box component={'nav'} width={'100%'} position={singlePage ? 'fixed' : 'relative'} className={darkMode ? Style.dark : Style.light}>
             <Box component={'ul'} display={'flex'} justifyContent={'center'} alignItems={'center'}
                 gap={{ xs: '2rem', md: '8rem' }}
                 textTransform={'lowercase'} fontSize={'1rem'}>
+                                <li>
+                    <Toggler darkMode={darkMode} handleClick={handleClick} />
+                </li>
+                
                 {links.map((link, index) => (
                     <Box key={index} component={'li'} className={(link.active === active && !link.type) ? Style.active : ''}
                         sx={{ borderImageSource: info.gradient }}>
@@ -96,18 +91,15 @@ export default function Navbar({ darkMode, handleClick, active, setActive }) {
                     </Box>
                 ))}
                 <li>
-                    <Toggler darkMode={darkMode} handleClick={handleClick} />
+                    <button onClick={triggerFireworks} style={{ fontSize: '1.5rem', background: 'none', border: 'none', cursor: 'pointer' }}>
+                    🎇
+                    </button>
                 </li>
                 <li>
                     <button onClick={triggerConfetti} style={{ fontSize: '1.5rem', background: 'none', border: 'none', cursor: 'pointer' }}>
                         🎉
                     </button>
                     <Confetti active={confettiActive} config={confettiConfig} />
-                </li>
-                <li>
-                    <button onClick={triggerFireworks} style={{ fontSize: '1.5rem', background: 'none', border: 'none', cursor: 'pointer' }}>
-                    🎇
-                    </button>
                 </li>
             </Box>
         </Box>
