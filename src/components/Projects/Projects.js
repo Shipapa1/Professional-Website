@@ -6,6 +6,11 @@ import {info} from "../../info/Info";
 import shoppingCartImage from '../../img/Shop.png'; // Adjust the path as necessary
 import Taskimage from '../../img/Task.png';
 import Arduinopro from '../../img/Cs120b.png';
+import Synopsysimage from '../../img/Synopsys.png';
+import Videogameimage from '../../img/Videogame.PNG';
+import Chatroomimage from '../../img/Chatroom.png';
+import Bopitimage from '../../img/Bopit.png';
+
 export default function Projects({innerRef}) {
     const firstName = info.firstName.toLowerCase()
 
@@ -29,14 +34,16 @@ export default function Projects({innerRef}) {
 
 
         <br></br>
-        <h2>Task Scheduler</h2>
+        <h2>Unity Top-Down Shooter Game</h2>
             <p><span style={{color: info.baseColor}}>$ <span
                 className={Style.green}></span> </span>
                 {info.bio6}
             </p>
             <br>
             </br>
-            <img src={Taskimage} alt="Task Image" style={{ width: '100%' }} />
+            <img src={Videogameimage} alt="Videogame Image" style={{ width: '100%' }} />
+           
+           
             <br></br>
             <h2>Arduino Temperature/Length Reader</h2>
             <p><span style={{color: info.baseColor}}>$ <span
@@ -48,6 +55,39 @@ export default function Projects({innerRef}) {
             </br>
 
          <img src={Arduinopro} alt="Arduino Image" style={{ width: '100%', height: '400px' }} />
+
+
+            <br></br>
+            <h2>Synopsis 4-Bit Transistor Layout/Schematic</h2>
+            <p><span style={{color: info.baseColor}}>$ <span
+                className={Style.green}></span> </span>
+                {info.bio12}
+            </p>
+
+            <br>
+            </br>
+         <img src={Synopsysimage} alt="Synopsys Image" style={{ width: '100%' }} />
+            <br></br>
+            <h2>Bop-It FRDM/Arduino Game</h2>
+            <p><span style={{color: info.baseColor}}>$ <span
+                className={Style.green}></span> </span>
+                {info.bio13}
+            </p>
+
+            <br>
+            </br>
+            <img src={Bopitimage} alt="Bopit Image" style={{ width: '100%' }} />
+            <br></br>
+            <h2>Video-Game Chatroom</h2>
+            <p><span style={{color: info.baseColor}}>$ <span
+                className={Style.green}></span> </span>
+                {info.bio14}
+            </p>
+
+            <br>
+            </br>
+            <img src={Chatroomimage} alt="Chat Image" style={{ width: '100%' }} />
+
 
             <br>
             </br>
