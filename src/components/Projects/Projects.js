@@ -10,6 +10,7 @@ import Synopsysimage from '../../img/Synopsys.png';
 import Videogameimage from '../../img/Videogame.PNG';
 import Chatroomimage from '../../img/Chatroom.png';
 import Bopitimage from '../../img/Bopit.png';
+import stockImage from '../../img/stockapp.png';
 
 export default function Projects({innerRef}) {
     const firstName = info.firstName.toLowerCase()
@@ -20,6 +21,22 @@ export default function Projects({innerRef}) {
         </br>
         <br></br>
         <h1>Projects</h1>
+
+        <br></br>
+        <h2>Stock Tracker App</h2>
+            <p><span style={{color: info.baseColor}}>$ <span
+                className={Style.green}></span> </span>
+                {info.bio15}
+            </p>
+            <br>
+        </br>
+
+        
+        <img src={stockImage} alt="Stock App Image" style={{ width: '100%' }} />
+
+
+
+
         <br></br>
         <h2>Shared Shopping Cart</h2>
             <p><span style={{color: info.baseColor}}>$ <span
@@ -94,10 +111,22 @@ export default function Projects({innerRef}) {
             <br>
             </br>
             <h1> Work Experience</h1>
+
+            <br></br>
+            <h2>Substitute Teacher</h2>
+ 
+            <p class="right-italic">Kern High School Federation | March 2025-now | Bakersfield, CA</p>
+            <br></br>
+                <p><span style={{color: info.baseColor}}>$ <span
+                    className={Style.green}></span> </span>
+                    {info.bio16}
+                </p>
+
+
             <br></br>
             <h2>Swimming Official</h2>
  
-            <p class="right-italic">Kern Swimming Federation | May 2020-Aug 2020 | Bakersfield, CA</p>
+            <p class="right-italic">Kern Swimming Federation | May 2021-Aug 2021 | Bakersfield, CA</p>
             <br></br>
                 <p><span style={{color: info.baseColor}}>$ <span
                     className={Style.green}></span> </span>

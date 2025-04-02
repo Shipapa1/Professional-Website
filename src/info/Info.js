@@ -26,7 +26,7 @@ export const info = {
         },
         {
             emoji: "📨",
-            text: "myduyisepic@gmail.com"
+            text: "NathanDNguyen2002@gmail.com"
         }
     ],
     socials: [
@@ -69,7 +69,8 @@ export const info = {
     bio12: "Designed and implemented a 4-bit transistor using Synopsys, ensuring accurate functionality and performance. Analyzed and fixed over 200 design errors using Synopsys tools, such as LVS (Layout vs. Schematic) and DVS (Design vs. Schematic), to ensure the design matched the blueprint and followed specifications. Optimized the transistor layout to minimize power consumption and improve speed, achieving design efficiency. Collaborated in the design validation process, ensuring seamless integration with larger circuit systems.",
     bio13: "Built a Bop-It game using components button, joystick, potentiometer, FRDM accelerometer, LCD and Nokia screen. Coded in Kinetic Studios using State Machine C,  reducing event handling delays by comparison to a traditional approach. Integrated components into the FRDM board leveraging clock gating, pin configuration, and GPIO initialization, which sped up hardware-software interfacing by 20%. Developed communication between the FRDM board and Arduino via Serial Presence Detect, with game outputs displayed on both the Arduino side on LCD and Nokia screens",
     bio14: "A video game chatroom that allows gamers to join their choice of a game room and chat with others. Engineered a secure Git-based login system enhancing overall user experience. Designed and optimized renaming boosting user engagement and personalization by 15%. Optimized backend and frontend processes to achieve near-instantaneous chatroom responsiveness, reducing average latency by 50% and ensuring seamless communication.",
-
+    bio15: "StockTracker Pro is a web application that enables users to monitor real-time fake stock market data and manage personalized watchlists. Developed a seamless stock-tracking experience with an intuitive UI, enhancing user engagement. Engineered a duplicate prevention system, improving data accuracy and user convenience. Optimized backend and frontend interactions to ensure near-instantaneous updates, reducing latency and providing a smooth, real-time stock monitoring experience.",
+    bio16: "Provided instructional support and maintained a structured learning environment for high school students across various subjects. Adapted lesson plans to ensure continuity in students’ education while managing classroom dynamics effectively. Fostered student engagement through clear communication and interactive discussions. Maintained discipline and enforced school policies to create a productive learning atmosphere. Quickly adapted to different teaching styles and subject matters, demonstrating flexibility and strong problem-solving skills in fast-paced educational settings.",
 
     skills:
         {
